@@ -18,6 +18,8 @@ gem "jbuilder"
 gem "bootstrap"
 # Use Sassc to successfully install bootstrap
 gem "sassc-rails"
+# Use fontawesome for icons
+gem "font-awesome-sass"
 
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
