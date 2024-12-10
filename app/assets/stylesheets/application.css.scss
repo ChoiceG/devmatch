@@ -9,6 +9,7 @@
  * Consider organizing styles into separate files for maintainability.
  */
 @import "bootstrap";
+@import "font-awesome";
 
  // Typography Styles
  body {
@@ -62,4 +63,6 @@
 // Home pages styles
  .home-callout {
    color: white;
+   padding-top: 30px;
+   padding-bottom: 20px;
  }
