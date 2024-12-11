@@ -20,6 +20,8 @@ gem "bootstrap"
 gem "sassc-rails"
 # Use fontawesome for icons
 gem "font-awesome-sass"
+# Use Hirb to improve database display
+gem "hirb", "0.7.3"
 
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
