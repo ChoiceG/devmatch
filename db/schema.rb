@@ -9,15 +9,10 @@
 # migrations use external dependencies or application code.
 #
 # It's strongly recommended that you check this file into your version control system.
-
-<<<<<<< HEAD
-ActiveRecord::Schema[8.0].define(version: 2024_12_11_120628) do
+ActiveRecord::Schema[8.0].define(version: 2024_12_11_124102) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
-
-=======
-ActiveRecord::Schema[8.0].define(version: 2024_12_10_161522) do
->>>>>>> cb713208a4f3da71700b92016787bc20be68b729
+  
   create_table "contacts", force: :cascade do |t|
     t.string "name"
     t.string "email"
